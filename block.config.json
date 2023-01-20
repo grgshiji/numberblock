@@ -1,0 +1,13 @@
+{
+  "name": "numberblock",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/grgshiji/numberblock",
+    "ssh": "git@github.com:grgshiji/numberblock.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
